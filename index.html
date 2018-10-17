@@ -3,46 +3,43 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="main.js"></script>
     <title>Google</title>
 </head>
-
 <body>
-<div>
-    <div id="topnav">
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>waffle placeholder</li>
-            <li>notification placeholder</li>
-            <li>Profiel Icon Placeholder</li>
+<!-- Top Navigation-->
+<div id="topnav">
+        <ul class="nav">
+            <li class="left"><a href="">About</a></li>
+            <li class="left"><a href="">Store</a></li>
+            <li class="right"><a href=""><img id="img" src="profile.png" ></a></li>
+            <li class="right"><a href=""><img src="notification-outline/notification.png" id="notification_bell"></a></li>
+            <li class="right"><a href=""><img src="https://image.ibb.co/kFMOwQ/block.png" id="google_apps"></a></li>
+            <li class="right"><a href="">Images</a></li>
+            <li class="right"><a href="">Gmail</a></li>
         </ul>
-    </div>
-    <div id="googleLogo">
-        <img src="googlepic.jpg" href="" alt="Google Logo" width="272" height="201">
-    </div>
-    <div id="googleButtons">
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
+</div>
+<!--Main Content-->
+<div id="google">
+        <a href=""><img src="https://www.google.co.za/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
         <br>
-        <p>New! Get help at a glance. Introducing Google Home Hub</p>
+        <input type="text" id="search">
+    <div id="button-area">
+        <input type="submit" value="Google Search" class="googlebutton">
+        <input type="submit" value="Feeling Lucky" class="googlebutton">
     </div>
-    <div id="footer">
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
-    </div>
-`</div>
+        <p class="announcements">New! Get help at a glance. Introducing Google Home Hub</p>
+</div>
+<!--Footer-->
+<div id="botnav">
+    <ul class="footer">
+        <li class="left">Advertising</li>
+        <li class="left">Business</li>
+        <li class="right">Privacy</li>
+        <li class="right">Terms</li>
+        <li class="right">Settings</li>
+    </ul>
 </div>
 </body>
-</html>>
+</html>
